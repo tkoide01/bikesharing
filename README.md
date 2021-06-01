@@ -22,24 +22,35 @@ Followings are the seven visualizations for the NYC Citibike analysis and descti
 
 2. **Checkout Times by Gender**
 - The line diagram is displaying three different lines by gender. Although, the line for male is significantly bigger in terms of 'Number of Bikes,' the shape of lines are almost identical between male and female, which means both male and female tend to have similar characterstics in checkout times. Therefore, we do not see much reason to prefer certain gender over the other for checkout time.
+
 ![](images/checkout_by_gender.png)
 
 3. **User Type**
+- The pie chart shows that over 81% of customers are subscriber to the program and only 19% of the customers are non-subscriber. This result suggests that the business model should encourage users to sign up subscription and also provide service to maintain them to be successful.
+
 ![](images/customer_breakdown.png)
 
+4. **Top Starting Locations**
+- The map plots starting station locations in NYC. Note that plotted points are differenciated by color and size based on their used counts. We can see that large dots are plotted mainly 50th street and below in Manhattan.
 
-
-4. ** **
 ![](images/top_starting_locations.png)
 
-5. ** **
+5. **Trips by Weekday for Each Hour**
+- The heatmap displays how bike usage is populated by weekday for each hour. We can see that there are two peaks in weekdays around 7AM-9AM and 5PM-7PM while the peaktime is spread throughout the day for weekend. This means that users are often using for commute in weekdays and thus there are two peaks during those time frames.
+
 ![](images/trips_by_weekday.png)
 
-6. ** **
+6. **Trips by Gender (Weekday per Hour)**
+- The heatmaps are adjusted from the previous visualization that the maps are separated by gender. Similar to what we saw for the **Checkout Times by Gender**, the gradation in heatmaps we see is almost identical among all genders. Thus, both male and femal rides bike in the same timeframes.
+
+![](images/trips_by_weekday_gender.png)
+
+7. **User Trips by Gender by Weekday**
+- The heatmap displays user trips separated by gender and by type of subscription. One thing we notice is that we have lot less 'unknown' subscriber compared to non-subscriber customers. This do make sense since people more likely to register their gender when they sign up as subscriber.
+
 ![](images/user_trips_gender.png)
 
-7. ** **
-![](images/trips_by_weekday_gender.png)
+
 
 ## Summary
 
