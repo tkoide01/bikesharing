@@ -16,7 +16,7 @@ Lastly, we combine these visualizations into Tableau dashboards and stories as f
 Followings are the seven visualizations for the NYC Citibike analysis and desctiption for each visualization:
 
 1. **Gender Breakdown**
-- As shown on the visualizaion, we see that majority of Citibike users were male. Bemore specific with number, the breakdown is male: 1,530,272, felamle: 588,431, and unknown: 225,521. In percentae, male: 65.27%, female: 25.10%, and unknown: 9.62%.
+- As shown on the visualizaion, we see that majority of Citibike users were male. Be more specific with number, the breakdown is male: 1,530,272, felamle: 588,431, and unknown: 225,521. In percentae, male: 65.27%, female: 25.10%, and unknown: 9.62%.
 
 ![](images/gender_breakdown.png)
 
@@ -53,5 +53,17 @@ Followings are the seven visualizations for the NYC Citibike analysis and descti
 
 
 ## Summary
-
+Based on the visualizations produced on Tableau based on NYC Citibike usage data, we summarized in two dashboards as below
+1. **Gender Analysis**
 [link to dashboard](https://public.tableau.com/app/profile/takuma.koide/viz/bikesharing_challenge_16225734714640/GenderAnalysis "Gender Analysis")
+- The dashboard display show three images that analyze the bike users by gender. In summary, the number of male users exceeds more than double of the female user number. On the other hand male and female users are very similar in checkout time (most users ride for 5-6min) and when to ride a bike (both genders ride bike for commute reason during weekday and their peaktime spreads out in weekend).
+- Given the above analysis, we should strategize the marketing of the bike-sharing program in Des Moines mainly to male users as this demographic is more likely to use bike for tranportation than femal.
+- Also, bike stations should be located to spots where faciliate people's commute. So if people tend to come work to Des Moines by train and then walk from there to their job, then we should build bike stations near by those train station.
+- For the future analysis, we should make research on potential of bike-sharing program to female customers and identify key reason of imbalance usage of bike-sharing between male and female. If both user categories ride bikes in a similiar way, why one group choose to ride bike more often? Could it be how NYC Citibike was promoted? Or is it due to how female does dress or make-up which could be difficult to control? Depends on the potential in female users, we could expand the bike-sharing program business.
+
+2. **Subscriber Analysis**
+[link to dashboard](https://public.tableau.com/app/profile/takuma.koide/viz/bikesharing_challenge_16225734714640/SubscriberAnalysis "Subscriber Analysis")
+- The analysis shows that nire than three quarters of users are subscribed user. Also, among the gender segmentation, male user is more likely subscriber compared to female and unknown users.
+- Given the observation, the key factor to be successful in bike-sharing program is how much subscriber you can have in the area as they utilze bike-sharing much more often compared to non-subscriber. Therefore, we need to consider two things: how to turn users to subscriber and how to maintain them as a subscriber.
+- From the map of the 'Top Starting Locaitons' we can find that popular locations are inside Manhattan in NYC. Also, 'User Trips by Gender by Weekday' presents that subsribed users are often riding bike in weekday compared to weekend. Therefore, we can assume that there is an overlap between commuter population and subscibers. Thus we should utilize advertisements inside city, train stations, trains to approach commuters. In addition, we should integrate reward system or discount for long-term subsribers to maintain their subscription.
+
