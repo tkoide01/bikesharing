@@ -54,4 +54,4 @@ Followings are the seven visualizations for the NYC Citibike analysis and descti
 
 ## Summary
 
-[link to dashboard](https://public.tableau.com/app/profile/takuma.koide/viz/bikesharing_challenge_16225734714640/GenderAnalysis)
+[link to dashboard](https://public.tableau.com/app/profile/takuma.koide/viz/bikesharing_challenge_16225734714640/GenderAnalysis "Gender Analysis)
